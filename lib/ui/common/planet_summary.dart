@@ -55,7 +55,7 @@ class PlanetSummary extends StatelessWidget {
                     image: 'assets/img/ic_distance.png'),
               ),
               Container(
-                width: 32.0,
+                width: horizontal ? 0 : 32.0,
               ),
               Expanded(
                 flex: horizontal ? 1 : 0,
